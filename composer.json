@@ -1,5 +1,5 @@
 {
-    "name": "balfour/laravel-klaviyo",
+    "name": "insight-media/laravel-klaviyo",
     "description": "A library for interacting with the Klaviyo API in Laravel",
     "type": "library",
     "license": "MIT",
@@ -7,13 +7,17 @@
         {
             "name": "Balfour Group",
             "email": "team-dev@balfourgroup.com"
+        },
+        {
+            "name": "Dries Dekeersgieter",
+            "email": "dries@insight-media.be"
         }
     ],
     "require": {
         "ext-json": "*",
-        "guzzlehttp/guzzle": "^6.3",
+        "guzzlehttp/guzzle": "^7.4.1",
         "laravel/framework": "^5.7",
-        "propaganistas/laravel-phone": "^4.1"
+        "propaganistas/laravel-phone": "^4.3.5"
     },
     "autoload": {
         "psr-4": {
